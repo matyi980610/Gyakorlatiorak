@@ -1,0 +1,97 @@
+body
+{
+  background: url("mozivaszon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial";
+    margin: 0;
+}
+.kep img
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.kep
+{
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.cim
+{
+    font-family: Bangers;
+    font-size: 60px;
+    color: wheat;
+    position: absolute;
+    top: 240px;
+    left:10%;
+}
+.contener
+{
+    width: 40%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top:0;
+    right: 0;
+    
+    
+}
+.menu-elemek
+{
+    display: inline-block;
+    position: relative;
+   height: 50px;
+    margin: 0 4.8%;
+    idth: 15%;
+    line-height: 50px;
+    
+}
+.submenu
+{
+    list-style: none;
+    position: absolute;
+    background: url("hatter.gif");
+    visibility: hidden; 
+    opacity: 0;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    
+   
+    
+}
+.menu-elemek:hover .submenu
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.menu-elemek:hover, .lenyilomenu:hover
+{
+background-color: brown;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.filmek
+{
+    background-color: blueviolet;
+    width: 20%;
+    margin: 0 0 0 10%;
+    color: 
+    
+}
+.filmek p
+{
+    width: 100%;
+    font-family: Asap;
+    font-size: 20px;
+}

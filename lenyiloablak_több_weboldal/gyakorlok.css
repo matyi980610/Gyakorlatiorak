@@ -1,0 +1,133 @@
+body
+{
+    margin: 0px;
+    background: url("szep2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial";
+}
+.container
+{
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    
+}
+.menu-elemek
+{
+    display: inline-block;
+    position: relative;
+   height: 50px;
+    margin: 0 4.8%;
+    width: 15%;
+    line-height: 50px;
+    
+}
+.submenu
+{
+    list-style: none;
+    position: absolute;
+    background: url("szep2.jpeg");
+    visibility: hidden; 
+    opacity: 0;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    
+   
+    
+}
+.menu-elemek:hover .submenu
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.menu-elemek:hover, .lenyilomenu:hover
+{
+    background-color: brown;
+    color: white;
+}
+.submenu2
+{
+    list-style: none;
+    position: absolute;
+    background: url("szep2.jpeg");
+    visibility: hidden; 
+    opacity: 0;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.menu-elemek:hover .submenu2
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.menu-elemek:hover, .lenyilomenu2:hover
+{
+    background-color: brown;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.megjelen
+{
+    width: 150px;
+    height: 0px;
+    overflow: hidden;
+    
+}
+.nemmozdul
+{    
+    margin: 50px;
+    display: inline-block;
+    position: relative;
+    margin: 50px 0 0 376px;
+    color: wheat;
+    padding: 0 10px 0 0;
+    
+}
+.nemmozdul:hover .megjelen
+{
+    padding: 5px 0 0 0; 
+    height: auto;
+    color: wheat;
+    
+    
+}
+.nagyszoveg
+{
+    margin:25px;
+    color: wheat;
+}
+.kep 
+{
+    
+    height: 200px;
+    width: 700px;
+    float: right;
+    margin: 50px 25px 0 0;
+    
+}
+.kep img
+{
+    width: 100%;
+    
+}
+inframe
+{
+    width: 200px;
+    height: 50px;
+}
