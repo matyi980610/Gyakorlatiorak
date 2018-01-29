@@ -1,0 +1,133 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+.col_5_5
+{
+    width: 100%;
+    padding: 0;
+}
+.col_4_5
+{
+    width: 80%;
+}
+.col_3_5
+{
+    width: 60%;
+}
+.col_2_5
+{
+    width: 40%;
+}
+.col_1_5
+{
+    width: 20%;
+}
+
+body {
+    background: rgb(72, 83, 112);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: #e9e4ff;
+}
+
+.main-menu-container {
+  /* a text-align center csak inline elemeknél működik, de a
+  a main-menu-item egy inline elem lesz.
+  a text align property le öröklődik egészen a main-menu-item-ig */
+  text-align: center;
+  padding-top: 50px;
+}
+.main-menu
+{
+    
+    border-bottom: 3px solid #68d2ce;
+    
+}
+.main-menu-item
+{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    width: 120px;
+    padding: 20px; 0px;
+    
+}
+.submenu
+{
+    position: absolute;
+    list-style: none;
+    width: 260px;
+    left:0;
+    top:64px;
+    padding:0;
+}
+.submenu-item
+{
+    visibility: hidden;
+    list-style: none;
+    background: rgba(41,47,48,.2);
+    padding: 20px 0px;
+}
+.main-menu-item:hover .submenu-item
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.submenu-item:hover
+{
+    background: rgba(41,47,48,.7);
+}
+.main-menu-item:hover
+{
+    background: rgba(41,47,48,.2);
+}
+
+
+
+
+main 
+{
+  width: 50%;
+  line-height: 1.6;
+    margin:0 30%;
+}
+header
+{
+    width: 20%;
+    margin:0 30%;
+    padding-top: 20px;
+}
+img
+{
+    float: right;
+    
+
+}
+@media screen and (max-width:400px)
+{
+    .main-menu-item
+    {
+        width: 100%;
+    }
+    .main-content
+    {
+        width: 100%;
+    }
+    .main
+    {
+        width: 100%;
+    }
+    .company-image
+    {
+        display: none;
+    }
+    body
+    {
+        margin:0px;
+    }
+    
+}
