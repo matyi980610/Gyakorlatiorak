@@ -1,0 +1,19 @@
+*
+{
+    box-sizing: border-box;
+}
+.keret
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+.keret div
+{
+    display: inline-block;
+}
+.osz_1_3
+{
+    width: 30%;
+}

@@ -1,0 +1,40 @@
+*
+{
+    box-sizing: border-box;
+}
+.keret
+{
+    margin: auto;
+    text-align: center;
+}
+.col_1_4
+{
+    display: inline-block;
+    width: 24%;
+}
+.manuicon
+{
+    display: none;
+    position: relative;
+}
+.manuicon div
+{
+    display: none;
+}
+.befogo
+{
+    position: absolute;
+    top: 0;
+}
+.manuicon:hover div
+{
+    display: block;
+    margin:0 0 0 20px;
+}
+@media screen and (max-width:500px)
+{
+    .manuicon
+    {
+        display: block;
+    }
+}

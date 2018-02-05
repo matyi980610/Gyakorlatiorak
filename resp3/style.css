@@ -1,0 +1,184 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Questrial;
+    margin: 0;
+    vertical-align: top;
+}
+a
+{
+ text-decoration: none;
+     font-family:"Libre Barcode 39 Text" ;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.keret
+{
+    text-align: center;
+}
+.kismagas
+{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding-top: 15px;
+    
+}
+.keret div
+{
+    display: inline-block;
+    margin: 0;
+    
+}
+.cel_1_4
+{
+    width: 24%;
+    background: white;
+}
+.nagykeret
+{
+    height: 500px;
+    margin-top: 80px;
+    background-image: url(arckep.jpg) ;
+    background-size: cover;
+    width: 100%;
+    
+}
+.szovegkeret
+{
+    width: 40%;
+    margin: auto;
+}
+.szoveg
+{
+    display: inline-block;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+.cel_1_2
+{
+    width: 49%;
+    padding: 50px;
+}
+.betu
+{
+    font-family:"Libre Barcode 39 Text" ;
+    font-size: 40px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 5px;
+}
+.betu:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+    
+}
+.betu:hover a
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: all 0.0s ease-in-out;
+    
+}
+.manuicon
+{
+    display: none;
+    position: relative;
+}
+.manuicon div
+{
+    display: none;
+}
+.befogo
+{
+    position: absolute;
+    top: 0;
+}
+.manuicon:hover div
+{
+    display: block;
+    margin:0 0 0 20px;
+}
+.copy
+{
+    width: 100%;
+    height: auto;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0 ;
+}
+.befogo
+{
+    width: 300px;
+}
+@media screen and (max-width: 900px)
+{
+    .cel_1_2
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    .cel_1_4
+    {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+    .betu:hover
+    {
+        padding: 10px;
+        
+    }
+    .betu
+    {
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+    .manuicon
+    {
+        padding: 5px;
+        font-size: 20px;
+        position: fixed;
+        background: white;
+
+    }
+    .kismagas
+    {
+        display: none;
+    }
+    .nagykeret
+    {
+         height: 150px;
+        width: 100%;
+    }
+    .szoveg
+    {
+        text-align: left;
+    }
+     .manuicon
+    {
+        display: block;
+        font-size: 30px;
+    }
+    .a
+    {
+         font-family:"Libre Barcode 39 Text" ;
+    font-size: 40px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 5px;
+    }
