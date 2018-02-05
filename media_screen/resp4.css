@@ -1,0 +1,36 @@
+* { box-sizing:border-box; }
+
+.keret { margin:auto; text-align:center; }
+
+.osz_1_4 {
+	display:inline-block;
+	width:24%;
+	border:1px solid #aaa;
+	font-size:30px;
+}
+
+#hambi { display:none; }
+#hambi div { display:none; }
+#hambi:hover div { display:block; }
+
+@media screen and (max-width:400px)
+{
+	#hambi { display:block; }
+	.keret { isplay:none; }
+	.osz_1_4 {
+		display:inline-block;
+		max-width:12%;
+		overflow:hidden;
+	}
+}
+
+@media screen and (max-width:800px)
+{
+	.osz_1_4 {
+		display:inline-block;
+		width:24%;
+	}
+}
+
+
+

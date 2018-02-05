@@ -1,0 +1,78 @@
+/*Mobil-first css*/
+*
+{
+    box-sizing: border-box;
+}
+.keret
+{
+    margin:1% auto;
+    text-align: center;
+    max-width: 1200px;
+}
+.osz_1_4
+{
+    display: block;
+    overflow: hidden;
+    border: 1px solid grey; ;
+    font-size:30px;
+    margin: 3% auto;
+    background-color: darkolivegreen;
+        color: white;
+    border-radius: 15%;
+    font-family: Amatic SC;
+}
+.tartalom
+{
+    display: block;
+    margin: 1;
+    text-align: justify;
+    font-size: 20px;
+    background-color: cadetblue;
+    color: lightyellow;
+    padding: 4%;
+    max-width: 1200px;
+    margin: auto;
+}
+.osz_1_4:hover
+{
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+@media screen and (min-width:500px)
+{
+    .osz_1_4
+    {
+        display: inline-block;
+        width: 30%;
+        background-color: darkolivegreen;
+        color: white;
+        border-radius: 15%;
+    }
+}
+@media screen and (min-width:1000px)
+{
+   .osz_1_4
+    {
+        display: inline-block;
+        width: 16%;
+        font-size:40px;
+        border-radius: 15%;
+        background-color: darkolivegreen;
+        color: white;
+    } 
+    .keret
+    {
+        position: fixed;
+        display: block;
+        width: 80%;
+        background: white;
+        margin: 0 10%;
+        border-radius: 10%;
+    }
+    .tartalom
+    {
+        margin-top: 100px;
+        border-radius: 15%;
+    }
+}

@@ -1,0 +1,31 @@
+*
+{
+    background: black;
+    color: white;
+}
+.keret1
+{
+    width: 100%;
+    text-align: right;
+    border-bottom: 2px solid grey;
+    border-top: 3px solid white;
+    margin: 0;
+}
+.felsoimenu
+{
+    display: inline-block;
+    width: auto;
+    font-size: 20px;
+    padding: 0 15px
+}
+.nyelv
+{
+    color: yellowgreen;
+}
+.felsoicon
+{
+    display: inline-block;
+    vertical-align: -15px;
+    
+     
+}
