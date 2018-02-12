@@ -1,0 +1,12 @@
+.eredmeny
+{
+    display: inline-block;
+    background-color: lightslategrey;
+    border-radius: 20px;
+    margin 3px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}

@@ -1,0 +1,17 @@
+.csajos, .pasis
+{
+    background-color: darkslategrey;
+    width: 300px;
+    height: 128px;
+    color: white;
+    border: solid black 2px;
+    border-radius: 3%;
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+.img
+{
+    padding: 20px;
+    text-align: left;
+}

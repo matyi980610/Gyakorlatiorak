@@ -29,3 +29,54 @@
     
      
 }
+.keret2
+{
+    margin: 0 0 0 15%;
+}
+.kicsimenu
+{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.keret3
+{
+    display: inline-block;
+    float: right;
+    margin-top: 42px;
+}
+.kep
+{
+    margin-top: 20px;
+   background-image: url(oszi_taj.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+#keres
+{
+     float: left;
+    margin-top: 8px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    display: none;
+    
+}
+.nagyito:hover
+{
+    cursor: pointer;
+}
+#x
+{
+    display: inline-block;
+    font-size: 25px;
+    height: 29px;
+    margin-left: 320px;
+    padding: 0 15px;
+    background-color: red;
+    cursor: pointer;
+    
+}

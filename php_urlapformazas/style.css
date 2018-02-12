@@ -1,0 +1,35 @@
+input[type=text] 
+{ 
+    padding:2px 10px; 
+    outline:none; 
+    border:none;
+    color:white;
+    border-radius:10px; 
+    font-size:30px;
+ }
+.neve
+{
+    padding-top: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 33px;
+}
+.keret
+{
+    float: right;
+    background-color: grey;
+    text-align: right;
+    width: 36%;
+    height: 100px;
+}
+input[type=submit]
+{
+    padding:2px 10px; 
+    outline:none; 
+    border:none;
+    color:white;
+    border-radius:10px; 
+    font-size:30px;
+    float: right;
+    margin-top: 40px;
+}
