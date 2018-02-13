@@ -1,0 +1,38 @@
+.kat
+{
+    width: 50%;
+    margin:10px 25%;
+    background-color: red;
+    color: white;
+    border: solid 5px gray;
+    font-size: 20px; 
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+}
+.nev
+{
+    width: 50%;
+    margin:10px 25%;
+    background-color: brown;
+    color: white;
+    border: solid 5px gray;
+    font-size: 20px; 
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    
+}
+.leiras
+{
+    width: 50%;
+    margin:10px 25%;
+    background-color: olivedrab;
+    color: white;
+    border: solid 5px gray;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 300px;
+    padding-left: 10px;
+    
+}

@@ -1,0 +1,17 @@
+.ikon
+{
+    background-image: url(kosar.png);
+    width: 256px;
+    height: 256px;
+    right: 0;
+    position: absolute;
+}
+.kosar
+{
+    background-color: red;
+    color: white;
+    float: right;
+    width: 256px;
+    margin-top: 260px;
+    
+}
