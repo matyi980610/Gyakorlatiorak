@@ -1,0 +1,25 @@
+html,body
+{
+    height: 100%;
+}
+.keret
+{
+    background-color: darkgrey;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right:40%;
+    margin-top: 40px;
+}
+.keret2
+{
+     vertical-align:bottom;
+    height: 25%;
+    margin: 25% auto;
+}
+form
+{
+
+    vertical-align:bottom;
+}
