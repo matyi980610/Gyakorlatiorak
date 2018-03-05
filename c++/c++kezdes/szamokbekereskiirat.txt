@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int t[]={};
+int i;
+int a;
+int nagysag;
+int main()
+
+{
+    cout <<"Mekkora legyen a tömb?" <<endl;
+    cin >> nagysag;
+    for(i=0;i<nagysag;i++)
+    {
+        cout <<"Adj meg egy számot:" <<endl;
+        cin >> t[i];
+        
+    }
+    for(a=0;a<nagysag;a++)
+    cout << t[a]<<", ";
+}
+
+
+
+

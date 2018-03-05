@@ -1,0 +1,13 @@
+<script>
+b="";
+a=prompt("adj meg egy osszeget");   
+for(i=a.length-1;i>=0;i--)
+    {
+        b = a[i]+b;
+        if((a.length-i)%3==0)
+            {
+                b = " " +b;
+            }
+    }
+alert(b+"-Ft");
+</script>

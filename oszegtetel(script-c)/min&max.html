@@ -1,0 +1,21 @@
+<script>
+T=[1,4,3,9,7,6];
+nagyobb= T[0];
+kisebb=T[0];
+function main()
+{
+    for(i=0;i<T.length;i++)
+    {
+        if(T[i]>nagyobb)
+            {
+              nagyobb=T[i]
+            }
+        if(T[i]<kisebb)
+            {
+              kisebb=T[i]
+            }
+    }
+    alert(kisebb+", "+nagyobb);
+}
+main();
+</script>

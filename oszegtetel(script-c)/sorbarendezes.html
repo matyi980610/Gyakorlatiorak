@@ -1,0 +1,26 @@
+<script>
+t=[11,2,34,42,5,16,7];
+i=0;
+j=0;
+n=0;
+x=0;
+
+function main()
+{
+    for ( j=0; j<t.length; j++)
+    {
+        for ( i=0; i<t.length-1; i++)   
+        {
+        if (t[i] > t[i+1])
+            {
+            x = t[i];
+            t[i] = t[i+1];
+            t[i+1]=x;
+            }
+        }
+	}
+    alert(t)
+}
+    
+    main();
+</script>

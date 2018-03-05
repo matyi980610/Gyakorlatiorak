@@ -1,0 +1,35 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int t[] = {4,0,7,21,13,6,7,10};;
+int nagyobb =t[0];
+int kisebb = t[0];
+
+int main()
+{
+    int x = sizeof t/ sizeof (int);
+    for(int i=0;i<x;i++)
+    {
+        if(t[i]> nagyobb)
+        {
+          nagyobb=t[i];   
+        }
+        if(t[i]< kisebb)
+        {
+          kisebb=t[i];   
+        }
+    }
+cout << nagyobb-kisebb<< endl;
+
+}
+
+

@@ -1,0 +1,19 @@
+<script>
+b="";
+
+do
+    {
+        a=prompt("adj meg egy telefonszámot!");   
+    }
+while(a.length!=11)
+for(i=0;i<a.length;i++)
+    {
+        b += a[i];
+        if(i==1 || i==3)
+            {
+                b += "-";
+            }
+    }
+alert(b);
+
+</script>
