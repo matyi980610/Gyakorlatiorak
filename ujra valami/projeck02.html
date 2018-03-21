@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objektumok</title>
+</head>
+<body>
+  <p id="project"></p>
+   
+<script>
+cl=prompt("Cél?");
+kd=prompt("Kezdés?");
+bf=prompt("Vége?");
+munkakoltseg=prompt("Munkakoltég?")*1;
+anyagkoltseg=prompt("Anyagkoltseg?")*1;
+kivitel=prompt("Kivitel?")*1;
+function project(cel,kezd,bef,munkakoltseg,anyagkoltseg,kivitel)
+    {
+        this.prcel = cel;
+        this.prkezd = kezd;
+        this.prbef=bef;
+        this.mk=munkakoltseg;
+        this.ak=anyagkoltseg;
+        this.k=kivitel;
+        this.teljeskoltseg  = function()
+    {
+        alert((this.k+this.mk+this.ak)+(this.k+this.mk+this.ak)*0.1);
+    }
+    }
+var project1 =new project(cl,kd,bf,munkakoltseg,anyagkoltseg,kivitel);
+    
+document.getElementById("project").innerHTML ="Cél: "+project1.prcel+ " kezdés:"+project1.prkezd+" befejezés: "+project1.prbef;   
+
+project1.teljeskoltseg();
+</script> 
+</body>
+</html>

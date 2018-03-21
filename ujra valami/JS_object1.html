@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+// függvény a szemely objektumhoz
+function szemely(veznev, kernev, kor, szem, gyerek) {
+    this.veznevName = veznev;
+    this.kernevName = kernev;
+    this.kor = kor;
+    this.szemColor = szem;
+    this.gyerek = gyerek;
+    this.nagykoru = function()
+    {
+        if(this.kor>18)
+            {
+                alert("IGEN");
+            }
+        else
+            {
+                alert("NEM");
+            }
+    }
+}
+
+// új szemely objektum
+var apa = new szemely("Nagy", "Csaba", 50, "kék");
+
+// új szemely objektum
+var anya = new szemely("Kiss", "Laci", 40, "kék");
+
+var gyerek = new szemely("Nagy", "Álmos", 10, "barna")
+// kor megjelenítése
+document.getElementById("demo").innerHTML =
+"Apám " + apa.kor + "." + ", anyám " + anya.kor + "." + " gyerek:" + gyerek.kor + " gyerek neve: "+ gyerek.veznevName+ " "+gyerek.kernevName ; 
+
+gyerek.nagykoru();
+    
+</script>
+
+</body>
+</html>

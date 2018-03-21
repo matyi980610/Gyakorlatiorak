@@ -1,0 +1,17 @@
+#kinyit
+{
+    background-color: lightsteelblue;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+#tartalom
+{
+    margin-top: 20px;
+   margin-right: 100px;
+    padding-left: 20px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: solid green 1px;
+}

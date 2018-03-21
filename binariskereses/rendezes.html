@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rendezes</title>
+</head>
+<body>
+   <script>
+t=[5,1,12,3,4,12,5];
+x=0;
+i=0;
+j=t.length-1;
+max=0;
+lsz=0;
+for(j=t.length-1;j>1;j--)
+{
+    max=0;
+for(i=0;i<j;i++)
+    {
+        if(t[i]>max)
+            {
+                max=t[i];
+                mi=i;
+            }
+        lsz++;
+       
+    }
+x=t[j];
+t[j]=max;
+t[mi]=x;
+
+}
+       alert(t);
+alert(lsz);
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+.megjelen
+{
+    width: auto;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    
+}
+.nemmozdul
+{    
+    margin: 50px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    color: black;
+    padding: 0 10px 0 0;
+    
+}
+.nemmozdul:hover .megjelen
+{
+    padding: 5px 0 0 0; 
+    height: auto;
+    color: black;
+}

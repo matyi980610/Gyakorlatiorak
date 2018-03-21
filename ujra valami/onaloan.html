@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objektumok</title>
+</head>
+<body>
+  <p id="project"></p>
+   
+<script>
+cl=prompt("Cél?");
+kd=prompt("Kezdés?");
+bf=prompt("Vége?");
+ks=prompt("Költég?");
+function project(cel,kezd,bef,kolts)
+    {
+        this.prcel = cel;
+        this.prkezd = kezd;
+        this.prbef=bef;
+        this.prkoltseg = kolts;
+        this.nagykoltseg = function()
+    {
+        if(this.prkoltseg>25000)
+            {
+                alert("Közbeszerzés szükséges");
+            }
+    }
+    }
+var project1 =new project(cl,kd,bf,ks);
+    
+document.getElementById("project").innerHTML ="Cél: "+project1.prcel+ " kezdés:"+project1.prkezd+" befejezés: "+project1.prbef+" költség: "+project1.prkoltseg;   
+
+project1.nagykoltseg();
+</script> 
+</body>
+</html>

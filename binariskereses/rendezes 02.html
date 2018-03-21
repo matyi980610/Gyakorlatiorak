@@ -1,0 +1,18 @@
+<script>
+t=[1,2,11,3,4,12,5];
+    lsz=0;
+    for ( j=0; j<t.length; j++)
+    {
+        for ( i=0; i<t.length-1; i++)   
+        {
+        if (t[i] > t[i+1])
+            {
+            x = t[i];
+            t[i] = t[i+1];
+            t[i+1]=x;
+                lsz++;
+            }
+        }
+	}
+alert(t+"a rendezés "+lsz+" lépés alatt jött létre");
+</script>
